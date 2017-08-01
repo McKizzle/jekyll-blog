@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang='en'>
+     
+    {% include golden-head.html %}
+
+    <body>
+        <div id='page_content'>
+            <div id='navigation'>
+                <div id='website_title'>
+                    <div class='vertical_centering'> 
+                        <div>
+                            <h2 id='clinton-mckays-website'>
+                                <a href="{{ site.baseurl }}/" title='C. McKay dot com'>CSS Test Page</a> 
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div id='website_navigation'>
+                    <div>
+                        <ul>
+                            <li><a href="{{ '/about/' | prepend: site.baseurl }}" title='About Me'>About Me</a></li>
+                            <li><a href="{% post_url 2014-05-27-SSH %}" title='Resume'>Résumé</a></li>
+                            <li><a href="{{ '/Projects/' | prepend: site.baseurl }}" title='Projects'>Projects</a></li>
+                            <li><a href="{{ '/' | prepend: site.baseurl }}" title='Index'>Index</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id='document_title'>
+                <div class='vertical_centering'>
+                    <div>
+                        <h1> {{ page.title }} </h1>
+                    </div>
+                </div>
+            </div>
+            <div id='document_body'>
+                {{ content }}
+            </div>
+        </div> 
+    </body>
+</html>
+
+

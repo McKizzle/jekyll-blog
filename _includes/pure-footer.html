@@ -1,0 +1,33 @@
+<footer class="footer">
+
+  <div class="pure-g">
+    <div class="pure-u-8-24">
+      <ul class="posts_list">
+        <li>{{ site.title }}</li>
+        <li><a href="&#109;&#x61;&#105;&#108;t&#111;:&#x63;&#108;&#105;&#x6E;&#116;&#111;&#x6E;&#x2E;r&#x2E;&#x6D;&#99;&#x6B;&#97;&#x79;&#64;&#103;&#109;&#97;i&#108;&#46;&#x63;&#x6F;&#x6D;">&#x63;&#108;&#105;&#x6E;&#116;&#111;&#x6E;&#x2E;r&#x2E;&#x6D;&#99;&#x6B;&#97;&#x79;&#64;&#103;&#109;&#97;i&#108;&#46;&#x63;&#x6F;&#x6D;</a></li>
+        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">Subscribe via RSS</a></li>
+      </ul>
+    </div>
+
+    <div class="pure-u-8-24">
+      <ul class="posts_list">
+        {% if site.github_username %}<li>
+          <a href="https://github.com/{{ site.github_username }}">
+            <span class="username">GitHub: {{ site.github_username }}</span>
+          </a>
+        </li>{% endif %}
+        {% if site.twitter_username %}<li>
+          <a href="https://twitter.com/{{ site.twitter_username }}">
+            <span class="username">Twitter: {{ site.twitter_username }}</span>
+          </a>
+        </li>{% endif %}
+      </ul>
+    </div>
+
+    <div class="pure-u-8-24">
+      <p class="text">{{ site.description }}</p>
+    </div>
+
+  </div>
+
+</footer>

@@ -1,0 +1,143 @@
+body {
+    background-color: #0C090A;
+}
+
+h1 {
+    margin: 1em;
+}
+
+p {
+    margin-left: 1em;
+    margin-right: 1em;
+    line-height: 1.3em;
+}
+
+img {
+    width:  100%;
+    height: auto;
+}
+
+.cust_nav_bar {
+
+}
+
+.cust_nav_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+
+.cust_nav_bar li {
+    display:inline; 
+    float: left;
+    width: 100%;
+}
+
+.cust_nav_bar a {
+    display: block;
+    width: 100%;
+}
+
+.content {
+    margin: 0 auto;
+    width:  800px;
+    min-height: 1295px;
+    background-color: #161314;
+}
+
+.pure-menu.pure-menu-open {
+    border: 0px solid white;
+    background-color: #5C595A;
+    height: 100%;
+}
+.pure-menu .pure-menu-heading {
+    border: 0px none;
+    font-size: 100%;
+    color: whitesmoke;
+}
+.pure-menu a, .pure-menu .pure-menu-can-have-children>li:after {
+    color: #ACA9AA;
+}
+
+.vertical_alignment > div {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.vertical_alignment > div > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.no_border {
+    border: none;
+}
+
+.website_navigation {
+    /*width:  175px;*/
+    height: 432px;
+    background-color: #343132;
+}
+
+
+/******************************** DOCUMENT COMPONENTS ********************************/
+.document_title {
+    height: 432px;
+    /* background-color: #343132; */
+    background-color: #201D1E;
+    color: #FEFEFE;
+    text-align: right;
+}
+
+.document_body {
+    color: lightgray;
+    min-height: 1000px;
+    /* background-color: #161314 */
+}
+
+.document_body a {
+    color: #7B6B67;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 112%;
+}
+
+.document_body a:hover {
+    color: #7B6B67;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.document_body p { 
+    text-indent: 1em;
+}
+/**************************** END DOCUMENT COMPONENTS ******************************/
+
+/******************************** FOOTER COMPONENTS ********************************/
+.footer {
+    color: #0C090A;
+    font-size: 90%;
+    background-color: #5C595A;
+    /* background-color: #161314 */
+}
+
+.footer a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/**************************** END FOOTER COMPONENTS ********************************/
+
+.posts_list { }
+
+.posts_list > li {
+    list-style: none;
+}
+

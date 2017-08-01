@@ -1,0 +1,46 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+# Site settings
+
+title: Clinton McKay
+#email: auser@domain.com
+description: "Hello fellow netizens, you have reached the edge of the internet. Luckily Clinton McKay your neighborhood friendly Computer Scientist has caught your computer falling into the infinite digital void of boring."
+baseurl: "" # http://198.199.106.217/
+url: "" # localhost so that isn't much of an issue. 
+twitter_username: mrmckizzle
+github_username: mckizzle
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - blog-update.sh

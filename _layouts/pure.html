@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+  {% include pure-head.html %}
+
+    <body>
+        <!-- {% include header.html %} --> 
+
+        <div class="content">
+            <div class="pure-g">
+                <div class="pure-u-9-24 website_navigation">
+                    <div class="pure-g" style="height:100%">
+                        <div class="pure-u-1-1" style="height:50%">
+                            <div class="pure-menu pure-menu-open pure-menu-horizontal">
+                                <a href="{{ site.baseurl }}/" class="pure-menu-heading"> Crmckay.com </a> 
+                                <ul>
+                                    <li><a href="{{ "/2014/07/06/About-Me/" | prepend: site.baseurl }}" title='About Me'>About Me</a></li>
+                                    <li><a href="{{ "/2013/11/14/Resume/"   | prepend: site.baseurl }}" title='Resume'>Résumé</a></li>
+                                    <li><a href="{{ "/2013/10/09/Projects/" | prepend: site.baseurl }}" title='Projects'>Projects</a></li>
+                                    <li><a href="{{ site.baseurl }}/" title='Index'>Index</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="pure-u-1-1" style="height:50%">
+                            <div class="vertical_alignment">
+                                <div>
+                                    <center>
+                                        <!--<img class="pure-img" src="" alt="Empty Image"> -->
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pure-u-15-24 document_title vertical_alignment"> 
+                    <div>
+                        <div> <h1> {{ page.title }} </h1> </div>
+                    </div>
+                </div>
+                <div class="pure-u-5-5">
+                    <div class="document_body">
+                        {{ content }}
+                    </div>
+                </div>
+                <div class="pure-u-5-5">
+                    {% include pure-footer.html %}
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
