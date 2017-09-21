@@ -22,6 +22,7 @@ baseurl: "" # http://198.199.106.217/
 url: "" # localhost so that isn't much of an issue. 
 twitter_username: mrmckizzle
 github_username: mckizzle
+linkedin_username: crmckay
 
 # Build settings
 markdown: kramdown
